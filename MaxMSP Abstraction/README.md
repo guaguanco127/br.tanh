@@ -87,3 +87,7 @@ Open _br.tanh.example.1.0.maxpat (keep it in the same folder as the abstraction)
 
 - **audio:** br.tanh on a sine, saw or microphone source, with a frequency box. Turn on the audio with the toggle, then raise the gain slider, which starts muted. Raise Drive and watch the spectroscope~: more harmonics, same peak level. Lower Mix to blend the dry source back in.
 - **lfo:** A slow sine through br.tanh, shown on a scope. Raise Drive to turn it into a rounded square: it moves fast through the middle and dwells at the ends.
+
+## <a name="Credits"></a>Credits
+
+Antiderivative anti-aliasing (Parker, Zavalishin & Le Bivic, "Reducing the Aliasing of Nonlinear Waveshaping Using Continuous-Time Convolution", DAFx-16, 2016).

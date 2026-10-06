@@ -38,3 +38,11 @@ A mono tanh saturator for Max/MSP, built in gen~, for synthesis: audio oscillato
 **Pairs with br.shaper:** The inlets (Input, Drive, Mix) match [br.shaper](https://github.com/guaguanco127/br.shaper)'s, so you can swap between them without rewiring.
 
 The example patch (_br.tanh.example.1.0.maxpat) has a tab for audio and a tab with a saturated LFO on a scope.
+
+## <a name="Credits"></a>Credits
+
+Antiderivative anti-aliasing (Parker, Zavalishin & Le Bivic, "Reducing the Aliasing of Nonlinear Waveshaping Using Continuous-Time Convolution", DAFx-16, 2016).
+
+## <a name="Credits"></a>Credits
+
+Antiderivative anti-aliasing (Parker, Zavalishin & Le Bivic, "Reducing the Aliasing of Nonlinear Waveshaping Using Continuous-Time Convolution", DAFx-16, 2016).
