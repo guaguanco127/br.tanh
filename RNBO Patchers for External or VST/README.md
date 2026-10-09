@@ -29,7 +29,7 @@ There are two patches:
 | br.tanh.rnbo.1.1 | Input, Drive, Mix / Output | br.tanh.1.1 |
 | br.tanh.stereo.rnbo.1.1 | Left, Right, Drive, Mix / Left, Right | br.tanh.stereo.1.1 |
 
-Inside each [rnbo~], Drive (0 - 64, default 2) and Mix (0 - 1, default 1) are params, and the Drive and Mix inlets set the same params, so each external has the same inlets and outlets as its plain abstraction. The gen~ code inside is the same as the abstraction's, so you can also copy it into your own RNBO patches. To try one, drop a sample into the [playlist~] and use the attrui controls.
+Inside each [rnbo~], Drive (0 - 64, default 2) and Mix (0 - 1, default 1) are params, and the Drive and Mix inlets set the same params, so each external has the same inlets and outlets as its plain abstraction. The gen~ code inside is the same as the abstraction's, so you can also copy it into your own RNBO patches. To try one, drop a sample into the [playlist~] and use the attrui controls. The mono patch also has a source menu: choose LFO to send a slow sine (rate in Hz) into the input instead, and watch the scope as Drive turns it toward a square at the same height. Switching sources fades over 20 ms, so it never clicks.
 
 There is no State output: whatever drives the external or plugin already knows the values, and in a DAW they are normal plugin parameters.
 
